@@ -26,7 +26,7 @@ public class Team {
 
     public void Show(){
 
-        System.out.println(teamname);
+        System.out.println(teamname + " ");
         for (Competitor c: competitors){
             for (Obstacle o: obstacles){
                 o.doIt(c);
